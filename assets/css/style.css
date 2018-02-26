@@ -8,23 +8,31 @@ footer {
     width: 100%;
     height: 58px;
     background: white;
-    border-top: solid black;
+    border-top: solid darkslategray;
 }
 
 h1 {
     position: relative;
     padding-top: 22px;
     font-size: 40px;
-    padding-right: 5px;
+    padding-right: 8px;
     bottom: 15px;
+    color: darkslategray;
+    padding-left: 6px;
+}
 
+h2 {
+    color: darkslategray;
 }
 a:link {
-    color: grey;
-    font-size: 20px;
+    color: darkslategray;
     text-decoration: none;
 }
 
+a:visited {
+    color: darkslategray;
+    text-decoration: none;
+}
 #top {
     position: fixed;
     background: white;
@@ -32,7 +40,7 @@ a:link {
     top: 0;
     height: 58px;
     width: 100%;
-    border-bottom: solid black;
+    border-bottom: solid darkslategray;
     padding-top: 20px;
 }
 
@@ -47,15 +55,81 @@ a:link {
     float: left;
     width: auto;
     height: 100%;
-    background: darkgray;
 }
 
 #link_box {
     position: relative;
     width: auto;
     float: right;
-    margin-top: 16px;
-    border-left: solid 1px;
+    margin-top: 25px;
+    border-left: solid 1px gray;
+}
+
+#content {
+    position: relative;
+    width: 960px;
+    margin: auto;
+    margin-top: 123px;
+}
+
+#about_me {
+    width: 650px;
+    float: left;
+}
+
+#about_banner {
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+#biography {
+    font-size: 20px;
+    line-height: 37px;
+}
+
+#portrait {
+    width: 35%;
+    height: 36%;
+    position: relative;
+    float:  left;
+    padding: 10px 10px 0 10px;
+}
+#copyright {
+    color: darkslategray;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 33px;
+}
+
+#media_box {
+    width: 270px;
+    position: relative;
+    float: right;
+}
+
+#media {
+    position: relative;
+}
+
+#media_banner {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.text_box {
+    padding: 10px;
+}
+
+.thumbnail {
+    padding: 10px;
+    width: 74%;
+}
+
+.media_link {
+    position: relative;
+    float: left;
+    width: 33%;
 }
 
 .top_link {
@@ -63,6 +137,18 @@ a:link {
     float: right;
     padding-left: 3px;
     padding-right: 3px;
-    color: gray;
+    font-size: 20px;
     border-right: solid 1px gray;
+}
+
+.title_box {
+    padding: 10px;
+    border-bottom: solid lightgrey .5px;
+    margin: 0 20px 0 20px;
+}
+
+.content_box {
+    position: relative;
+    background: white;
+    border: solid darkslategray;
 }
