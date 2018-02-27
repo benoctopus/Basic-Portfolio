@@ -6,6 +6,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index:  3;
     height: 58px;
     background: white;
     border-top: solid darkslategray;
@@ -14,10 +15,9 @@ footer {
 h1 {
     position: relative;
     padding-top: 22px;
-    font-size: 50px
-    ;
+    font-size: 50px;
     padding-right: 8px;
-    bottom: 15px;
+    bottom: 43%;
     color: darkslategray;
     padding-left: 6px;
 }
@@ -25,6 +25,8 @@ h1 {
 h2 {
     color: darkslategray;
 }
+
+h5 {color: aliceblue;font-size: 2vw;text-align:  center;margin-top: 4%;}
 a:link {
     color: darkslategray;
     text-decoration: none;
@@ -41,7 +43,7 @@ a:visited {
     background: white;
     left: 0;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     height: 58px;
     width: 100%;
     border-bottom: solid darkslategray;
@@ -80,6 +82,7 @@ a:visited {
 #about_me {
     width: 66.3%;
     float: left;
+    padding-bottom:  10px;
     margin-bottom: 75px;
 }
 
@@ -171,8 +174,13 @@ a:visited {
 .portfolio_item {
     position: relative;
     float: left;
-    width: 47%;
-    margin: 0 3% 3% 0;
+    width: 45%;
+    margin: 0 5% 3% 0%;
+}
+
+.item_holder {
+    width: 95%;
+    margin: 20px 0 0 4.3%;
 }
 
 .port_image {
@@ -184,6 +192,17 @@ a:visited {
     padding: 10px;
     border-bottom: solid lightgrey .5px;
     margin: 0 20px 0 20px;
+}
+
+.item_banner {
+    width: 100%;
+    position: absolute;
+    float: left;
+    background: #2f4f4fcf;
+    height: 23%;
+    z-index:  2;
+    padding-right: 1%;
+    bottom: 10%;
 }
 
 .content_box {
