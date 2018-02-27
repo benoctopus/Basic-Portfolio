@@ -80,7 +80,13 @@ a:visited {
 #about_me {
     width: 66.3%;
     float: left;
-    margin-bottom:  75px;
+    margin-bottom: 75px;
+}
+
+#portfolio_box {
+    width: 69.3%;
+    float: left;
+    margin-bottom: 75px;
 }
 
 #about_banner {
@@ -160,6 +166,18 @@ a:visited {
     padding-right: 3px;
     font-size: 20px;
     border-right: solid 1px gray;
+}
+
+.portfolio_item {
+    position: relative;
+    float: left;
+    width: 47%;
+    margin: 0 3% 3% 0;
+}
+
+.port_image {
+    width: 100%;
+    border:  solid darkslategray;
 }
 
 .title_box {
