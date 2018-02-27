@@ -14,7 +14,8 @@ footer {
 h1 {
     position: relative;
     padding-top: 22px;
-    font-size: 40px;
+    font-size: 50px
+    ;
     padding-right: 8px;
     bottom: 15px;
     color: darkslategray;
@@ -83,13 +84,13 @@ a:visited {
 }
 
 #about_banner {
-    font-size: 30px;
+    font-size: 3vw;
     padding: 10px;
 }
 
 
 #biography {
-    font-size: 127%;
+    font-size: 20px;
     line-height: 143%;
 }
 
@@ -118,7 +119,7 @@ a:visited {
 }
 
 #media_banner {
-    font-size: 25px;
+    font-size: 2vw;
     padding: 10px;
 }
 
